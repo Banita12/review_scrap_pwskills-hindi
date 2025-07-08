@@ -5386,3 +5386,174 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.137.76.40:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.137.76.40:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 208-582-978
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:06:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:06:02] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:06:02] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:06:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:06:30] "POST /review HTTP/1.1" 200 -
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:09:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 208-582-978
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:22:43] "POST /review HTTP/1.1" 200 -
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:22:55] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'd:\\vscode\\review-scrapper-aws-main\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 208-582-978
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 208-582-978
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [07/Jul/2025 17:26:07] "POST /review HTTP/1.1" 200 -
+2025-07-07 17:28:45,058 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line:97
+2025-07-07 17:28:45,059 - INFO - [33mPress CTRL+C to quit[0m - Line:97
+2025-07-07 17:28:45,061 - INFO -  * Restarting with stat - Line:97
+2025-07-07 17:28:46,152 - WARNING -  * Debugger is active! - Line:97
+2025-07-07 17:28:46,155 - INFO -  * Debugger PIN: 208-582-978 - Line:97
+2025-07-07 17:28:55,256 - INFO - Accessed homepage. - Line:18
+2025-07-07 17:28:55,276 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:55] "GET / HTTP/1.1" 200 - - Line:97
+2025-07-07 17:28:55,455 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:28:55,464 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:28:57,537 - INFO - Search string received:  - Line:27
+2025-07-07 17:28:57,537 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q= - Line:31
+2025-07-07 17:28:59,559 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:28:59,712 - WARNING - No product big boxes found with the current selector '_cPHDOP col-12-12'. Check Flipkart HTML. - Line:47
+2025-07-07 17:28:59,712 - ERROR - An error occurred during scraping: Could not find product listings on Flipkart search page. HTML structure might have changed. - Line:158
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 48, in index
+    raise Exception("Could not find product listings on Flipkart search page. HTML structure might have changed.")
+Exception: Could not find product listings on Flipkart search page. HTML structure might have changed.
+2025-07-07 17:28:59,720 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:59] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:28:59,774 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:59] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-07 17:28:59,777 - INFO - 127.0.0.1 - - [07/Jul/2025 17:28:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:29:10,224 - INFO - Search string received: iphone11 - Line:27
+2025-07-07 17:29:10,224 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone11 - Line:31
+2025-07-07 17:29:11,013 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:29:11,181 - WARNING - No product big boxes found with the current selector '_cPHDOP col-12-12'. Check Flipkart HTML. - Line:47
+2025-07-07 17:29:11,181 - ERROR - An error occurred during scraping: Could not find product listings on Flipkart search page. HTML structure might have changed. - Line:158
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 48, in index
+    raise Exception("Could not find product listings on Flipkart search page. HTML structure might have changed.")
+Exception: Could not find product listings on Flipkart search page. HTML structure might have changed.
+2025-07-07 17:29:11,183 - INFO - 127.0.0.1 - - [07/Jul/2025 17:29:11] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:29:11,235 - INFO - 127.0.0.1 - - [07/Jul/2025 17:29:11] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-07 17:29:11,237 - INFO - 127.0.0.1 - - [07/Jul/2025 17:29:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:32:47,046 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line:97
+2025-07-07 17:32:47,047 - INFO - [33mPress CTRL+C to quit[0m - Line:97
+2025-07-07 17:32:47,049 - INFO -  * Restarting with stat - Line:97
+2025-07-07 17:32:48,144 - WARNING -  * Debugger is active! - Line:97
+2025-07-07 17:32:48,147 - INFO -  * Debugger PIN: 208-582-978 - Line:97
+2025-07-07 17:32:59,783 - INFO - Search string received: iphone11 - Line:27
+2025-07-07 17:32:59,784 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone11 - Line:31
+2025-07-07 17:33:02,401 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:33:02,556 - WARNING - No product big boxes found with the current selector '_cPHDOP col-12-12'. Re-check Flipkart HTML. - Line:46
+2025-07-07 17:33:02,556 - ERROR - An error occurred during scraping: Could not find product listings on Flipkart search page. HTML structure might have changed. - Line:162
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 47, in index
+    raise Exception("Could not find product listings on Flipkart search page. HTML structure might have changed.")
+Exception: Could not find product listings on Flipkart search page. HTML structure might have changed.
+2025-07-07 17:33:02,570 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:02] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:33:02,615 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:02] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-07 17:33:02,702 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:33:08,830 - INFO - Search string received: iphone11 - Line:27
+2025-07-07 17:33:08,831 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone11 - Line:31
+2025-07-07 17:33:10,246 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:33:10,398 - WARNING - No product big boxes found with the current selector '_cPHDOP col-12-12'. Re-check Flipkart HTML. - Line:46
+2025-07-07 17:33:10,399 - ERROR - An error occurred during scraping: Could not find product listings on Flipkart search page. HTML structure might have changed. - Line:162
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 47, in index
+    raise Exception("Could not find product listings on Flipkart search page. HTML structure might have changed.")
+Exception: Could not find product listings on Flipkart search page. HTML structure might have changed.
+2025-07-07 17:33:10,400 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:10] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:33:10,445 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:10] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-07 17:33:10,448 - INFO - 127.0.0.1 - - [07/Jul/2025 17:33:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-07 17:42:47,297 - INFO -  * Detected change in 'd:\\vscode\\review-scrapper-aws-main\\app.py', reloading - Line:97
+2025-07-07 17:42:47,385 - INFO -  * Restarting with stat - Line:97
+2025-07-07 17:42:48,465 - WARNING -  * Debugger is active! - Line:97
+2025-07-07 17:42:48,468 - INFO -  * Debugger PIN: 208-582-978 - Line:97
+2025-07-07 17:43:00,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line:97
+2025-07-07 17:43:00,547 - INFO - [33mPress CTRL+C to quit[0m - Line:97
+2025-07-07 17:43:00,548 - INFO -  * Restarting with stat - Line:97
+2025-07-07 17:43:01,652 - WARNING -  * Debugger is active! - Line:97
+2025-07-07 17:43:01,654 - INFO -  * Debugger PIN: 208-582-978 - Line:97
+2025-07-07 17:43:11,359 - INFO - Search string received: iphone11 - Line:27
+2025-07-07 17:43:11,359 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone11 - Line:31
+2025-07-07 17:43:12,444 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:43:12,596 - INFO - Found product link: https://www.flipkart.com/apple-iphone-11-green-128-gb-includes-earpods-power-adapter/p/itm3a51d53dbcc0c?pid=MOBFKCTSQTWRS7Q8&lid=LSTMOBFKCTSQTWRS7Q8HBC4II&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=a8c72aa2-4d4e-4151-8c54-e73d96e73dfe.MOBFKCTSQTWRS7Q8.SEARCH&ppt=None&ppn=None&ssid=hsaa6dzabk0000001751890392129&qH=d6db477051465f9a - Line:67
+2025-07-07 17:43:13,379 - INFO - Search string received: iphone11 - Line:27
+2025-07-07 17:43:13,395 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone11 - Line:31
+2025-07-07 17:43:13,473 - INFO - Product page successfully fetched and parsed. - Line:73
+2025-07-07 17:43:13,480 - WARNING - No comment boxes found with the current selector 'col EPCmJX Ma1fCG'. Re-check product review page HTML. - Line:80
+2025-07-07 17:43:13,483 - ERROR - An error occurred during scraping: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed. - Line:162
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 95, in index
+    raise Exception("No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.")
+Exception: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.
+2025-07-07 17:43:13,496 - INFO - 127.0.0.1 - - [07/Jul/2025 17:43:13] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:43:14,522 - INFO - Flipkart search page successfully fetched. - Line:37
+2025-07-07 17:43:14,678 - INFO - Found product link: https://www.flipkart.com/apple-iphone-11-green-128-gb-includes-earpods-power-adapter/p/itm3a51d53dbcc0c?pid=MOBFKCTSQTWRS7Q8&lid=LSTMOBFKCTSQTWRS7Q8HBC4II&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=5a730f94-ba75-40f6-8a34-4814fe3f9ed9.MOBFKCTSQTWRS7Q8.SEARCH&ppt=None&ppn=None&ssid=4yd794zm680000001751890394158&qH=d6db477051465f9a - Line:67
+2025-07-07 17:43:15,544 - INFO - Product page successfully fetched and parsed. - Line:73
+2025-07-07 17:43:15,550 - WARNING - No comment boxes found with the current selector 'col EPCmJX Ma1fCG'. Re-check product review page HTML. - Line:80
+2025-07-07 17:43:15,553 - ERROR - An error occurred during scraping: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed. - Line:162
+Traceback (most recent call last):
+  File "d:\vscode\review-scrapper-aws-main\app.py", line 95, in index
+    raise Exception("No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.")
+Exception: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.
+2025-07-07 17:43:15,555 - INFO - 127.0.0.1 - - [07/Jul/2025 17:43:15] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-07 17:43:15,594 - INFO - 127.0.0.1 - - [07/Jul/2025 17:43:15] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-07 17:43:15,685 - INFO - 127.0.0.1 - - [07/Jul/2025 17:43:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
+2025-07-08 10:37:55,359 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000 - Line:97
+2025-07-08 10:37:55,360 - INFO - [33mPress CTRL+C to quit[0m - Line:97
+2025-07-08 10:37:55,362 - INFO -  * Restarting with stat - Line:97
+2025-07-08 10:37:56,276 - WARNING -  * Debugger is active! - Line:97
+2025-07-08 10:37:56,277 - INFO -  * Debugger PIN: 143-920-593 - Line:97
+2025-07-08 10:39:39,768 - INFO - Accessed homepage. - Line:19
+2025-07-08 10:39:39,783 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:39] "GET / HTTP/1.1" 200 - - Line:97
+2025-07-08 10:39:39,898 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:39] "GET /static/css/style.css HTTP/1.1" 200 - - Line:97
+2025-07-08 10:39:39,898 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:39] "GET /static/css/main.css HTTP/1.1" 200 - - Line:97
+2025-07-08 10:39:39,999 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 - - Line:97
+2025-07-08 10:39:52,829 - INFO - Search string received: iphone7 - Line:28
+2025-07-08 10:39:52,830 - INFO - Attempting to open Flipkart search URL: https://www.flipkart.com/search?q=iphone7 - Line:32
+2025-07-08 10:39:54,188 - INFO - Flipkart search page successfully fetched. - Line:38
+2025-07-08 10:39:54,261 - INFO - Found product link: https://www.flipkart.com/apple-iphone-7-jet-black-128-gb/p/itmen6dakdgkpy6n?pid=MOBEMK62VCQ2UMT8&lid=LSTMOBEMK62VCQ2UMT8IY1JYN&marketplace=FLIPKART&q=iphone7&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=50e5ba08-4a29-471e-8e09-d43115eb1f72.MOBEMK62VCQ2UMT8.SEARCH&ppt=None&ppn=None&ssid=wmzhjnr7i80000001751951394267&qH=c848b7081ba96a14 - Line:74
+2025-07-08 10:39:55,231 - INFO - Product page successfully fetched and parsed. - Line:80
+2025-07-08 10:39:55,235 - WARNING - No comment boxes found with the current selector 'col EPCmJX Ma1fCG'. Check product review page HTML. - Line:86
+2025-07-08 10:39:55,237 - ERROR - An error occurred during scraping: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed. - Line:167
+Traceback (most recent call last):
+  File "D:\vscode\review-scrapper-aws-main\app.py", line 100, in index
+    raise Exception("No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.")
+Exception: No reviews found for this product and no 'All Reviews' link. HTML structure might have changed.
+2025-07-08 10:39:55,240 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:55] "POST /review HTTP/1.1" 200 - - Line:97
+2025-07-08 10:39:55,270 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:55] "[33mGET /style.css HTTP/1.1[0m" 404 - - Line:97
+2025-07-08 10:39:55,274 - INFO - 127.0.0.1 - - [08/Jul/2025 10:39:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 - - Line:97
